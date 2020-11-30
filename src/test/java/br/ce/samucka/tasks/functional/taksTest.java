@@ -13,8 +13,8 @@ public class taksTest {
 	
 	public WebDriver acessarAplicacao() {
 		WebDriver driver = new ChromeDriver();
-		driver.navigate().to("http://localhost:8001/tasks");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.navigate().to("http://172.20.10.2:9999/tasks");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return driver;
 	}
 	
