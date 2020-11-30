@@ -13,7 +13,7 @@ public class taksTest {
 	
 	public WebDriver acessarAplicacao() {
 		WebDriver driver = new ChromeDriver();
-		driver.navigate().to("http://172.20.10.2:9999/tasks");
+		driver.navigate().to("http://10.0.0.21:9999/tasks");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return driver;
 	}
